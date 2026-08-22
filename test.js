@@ -23,3 +23,29 @@ let scores = [20, 12, 25, 15];
 for(let newscore = 0; newscore < scores.length; newscore++) {
     console.log(scores[newscore] + 20);
 }
+
+
+//trying something here
+let person = { name: "chuk", color: "blue" };
+let hasId1 = true;
+    if (hasId1 === true) {
+        console.log("He's clean");
+    }
+    else {
+        console.log("He's Dirty");
+    }
+console.log(person.color)
+let hasId2 = false;
+ if (hasId2 == true) {
+        console.log("He's double clean");
+    }
+    else {
+        console.log("He's double dirty");
+    }
+
+
+    
+console.log(hasId1);
+console.log(person); {
+
+}
