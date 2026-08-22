@@ -7,5 +7,3 @@ const complexion = ["dark", "medium", "fair"];
 const darkComplexion = complexion.filter((item) => item === "dark");
 console.log(darkComplexion);
 
-
-
