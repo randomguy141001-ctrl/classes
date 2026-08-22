@@ -8,3 +8,4 @@ console.log((studentStatus), typeof(studentStatus));
 
 let Shoppinglist = ["Laptop", "Monitor", "GPU", "Phone Screen"];
 console.log(Shoppinglist, typeof(Shoppinglist));
+
