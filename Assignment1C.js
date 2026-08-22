@@ -4,5 +4,6 @@ console.log(a == b);
 console.log(a === b);
 
 
+
 let score = 75;
 console.log(score >= 50);
