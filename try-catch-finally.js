@@ -25,7 +25,7 @@ try {
     registerUser("Chuk", 24);
     registerUser("Emy", 22);
      registerUser("", 30);
-    registerUser("Uche", 15);
+    registerUser("Dora", 15);
    
 
 } catch (error) {
