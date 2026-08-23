@@ -33,3 +33,27 @@ try {
 } finally {
     console.log("Cleaning up...");
 }
+
+
+
+
+let txt = "Im okay, life is fair. I want to like being fair though"
+console.log(txt);
+console.log(txt.replaceAll("fair", "unfair"));
+
+
+let id = "9";
+console.log(id.padStart(6, "5"));
+
+console.log("*".repeat(7));
+
+let size = "50.69kg";
+let price = 21.699;
+console.log(price.toFixed(2));
+
+console.log(parseFloat(size));
+
+console.log(parseInt(size));
+
+console.log(Number(size));
+console.log(Number(price));
