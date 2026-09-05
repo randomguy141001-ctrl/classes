@@ -4,8 +4,13 @@ const studentRoutes = require('./routes/studentRoutes');
 
 const app = express();
 const port = process.env.PORT || 5000;
+const path = require('path');
 
 app.use(express.json());
+
+app.get('/frontend', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend.html'));
+});
 
 app.get('/', (req, res) => {
     res.json({
