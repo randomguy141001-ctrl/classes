@@ -38,8 +38,8 @@ MONGO_URI=mongodb://127.0.0.1:27017/studentportal PORT=5000 npm start
 
 ```json
 {
-  "name": "Ada Lovelace",
+  "name": "Techcrush",
   "regNo": "TC-001",
-  "email": "ada@example.com"
+  "email": "techcrush@email.com"
 }
 ```
